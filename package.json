@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/md-abdul-alim/JavaScript-Webpack/issues"
   },
-  "homepage": "https://github.com/md-abdul-alim/JavaScript-Webpack#readme"
+  "homepage": "https://github.com/md-abdul-alim/JavaScript-Webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.24.0"
+  }
 }
