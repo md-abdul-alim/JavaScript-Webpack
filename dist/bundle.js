@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Hello fn"),console.log("ABC")})();
