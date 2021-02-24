@@ -1,12 +1,14 @@
 Command:
-1.npm init -y
+1.npm init -y (this will add package.json)
 2.npm i -g npm@latest (update npm):for error:https://github.com/npm/cli/wiki/%22cb()-never-called%3F--I'm-having-the-same-problem!%22
-3.npm i -D webpack or npm install --save-dev webpack (link: https://webpack.js.org/guides/installation/)
+3.npm i -D webpack or npm install --save-dev webpack (install node_modules link: https://webpack.js.org/guides/installation/)
 4.npm install -D webpack-cli (install webpack cli)
-
+5.npm install -D babel-loader @babel/core @babel/preset-env webpack (install babel loader: https://webpack.js.org/loaders/babel-loader/)
+6.npm i -D @babel/plugin-proposal-class-properties  (plugin link: https://babeljs.io/docs/en/babel-plugin-proposal-class-properties)
 
 Node:
 1.https://www.journaldev.com/27373/install-uninstall-nodejs-ubuntu
 2.https://www.freecodecamp.org/news/how-to-install-node-js-on-ubuntu-and-update-npm-to-the-latest-version/
 3.https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions
 4.https://www.youtube.com/watch?v=3AEkoU6llqc
+5.https://babeljs.io/docs/en/
