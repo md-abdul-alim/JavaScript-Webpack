@@ -21,6 +21,7 @@ module.exports = {
                         presets: ['@babel/preset-env'],
                         ////plugins adding style: https://babeljs.io/docs/en/babel-plugin-proposal-class-properties
                         //plugins: ["@babel/plugin-proposal-class-properties"]
+                        ////OR
                         plugins: [
                             ["@babel/plugin-proposal-class-properties", { "loose": true }]
                         ]
