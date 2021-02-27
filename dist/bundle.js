@@ -16,7 +16,7 @@
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/scripts/test.js\");\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n\n\nvar fn = function fn() {\n  console.log('Hello fn');\n};\n\nfn();\nconsole.log(_test__WEBPACK_IMPORTED_MODULE_0__.ABC);\n\nvar X = /*#__PURE__*/function () {\n  function X() {\n    _classCallCheck(this, X);\n\n    this.a = 10;\n  }\n\n  _createClass(X, [{\n    key: \"ABC\",\n    value: function ABC() {\n      console.log(a);\n    }\n  }]);\n\n  return X;\n}();\n\nvar a = new X();\na.ABC();\n\n//# sourceURL=webpack://JavaScript-Webpack/./src/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/scripts/test.js\");\n/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/index.scss */ \"./src/styles/index.scss\");\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n\n\n\nvar fn = function fn() {\n  console.log('Hello fn');\n};\n\nfn();\nconsole.log(_test__WEBPACK_IMPORTED_MODULE_0__.ABC); //babel plugin test\n\nvar X = /*#__PURE__*/function () {\n  function X() {\n    _classCallCheck(this, X);\n\n    this.a = 10;\n  }\n\n  _createClass(X, [{\n    key: \"ABC\",\n    value: function ABC() {\n      console.log(a);\n    }\n  }]);\n\n  return X;\n}();\n\nvar a = new X();\na.ABC();\n\n//# sourceURL=webpack://JavaScript-Webpack/./src/scripts/index.js?");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tes
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ABC\": () => (/* binding */ ABC)\n/* harmony export */ });\nvar ABC = 'ABC';\n\n//# sourceURL=webpack://JavaScript-Webpack/./src/scripts/test.js?");
+
+/***/ }),
+
+/***/ "./src/styles/index.scss":
+/*!*******************************!*\
+  !*** ./src/styles/index.scss ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://JavaScript-Webpack/./src/styles/index.scss?");
 
 /***/ })
 

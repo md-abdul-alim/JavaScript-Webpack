@@ -6,9 +6,22 @@ Command:
 5.npm install -D babel-loader @babel/core @babel/preset-env webpack (install babel loader: https://webpack.js.org/loaders/babel-loader/)
 6.npm i -D @babel/plugin-proposal-class-properties  (plugin link: https://babeljs.io/docs/en/babel-plugin-proposal-class-properties)
 
+7.npm install --save-dev css-loader or npm i -D css-loader (https://webpack.js.org/loaders/css-loader/)
+8.npm install --save-dev mini-css-extract-plugin (https://webpack.js.org/plugins/mini-css-extract-plugin/)
+
+9.npm i -D sass-loader sass (https://webpack.js.org/loaders/sass-loader/)
+
+10.npm install --save-dev html-loader (https://webpack.js.org/loaders/html-loader/)
+11.npm install --save-dev html-webpack-plugin (https://webpack.js.org/plugins/html-webpack-plugin/)
+we can install two pack in one line (npm i -D html-loader html-webpack-plugin)
+
+12.npm install webpack-dev-server --save-dev    (https://github.com/webpack/webpack-dev-server) (https://github.com/webpack/webpack.js.org/pull/4091)
 Node:
 1.https://www.journaldev.com/27373/install-uninstall-nodejs-ubuntu
 2.https://www.freecodecamp.org/news/how-to-install-node-js-on-ubuntu-and-update-npm-to-the-latest-version/
 3.https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions
 4.https://www.youtube.com/watch?v=3AEkoU6llqc
 5.https://babeljs.io/docs/en/
+
+#error solution:
+1.webpack dev server (https://github.com/webpack/webpack.js.org/pull/4091)

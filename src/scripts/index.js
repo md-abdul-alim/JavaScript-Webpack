@@ -1,5 +1,7 @@
 import {ABC} from './test'
 
+import '../styles/index.scss'
+
 const fn = () => {
     console.log('Hello fn')
 }

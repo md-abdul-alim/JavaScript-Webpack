@@ -1,0 +1,3 @@
+1.build the project in dist folder by (npm run build)
+2.run project on devSever with hot module replacement (npm start)
+    add devSever on webpack and add start on package.json. that's it
